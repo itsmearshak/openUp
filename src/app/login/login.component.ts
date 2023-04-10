@@ -18,6 +18,7 @@ export class LoginComponent {
   }
 onButtonClick():void{
 this.login.logIn("arsga",'gggg');
+console.log("hello");
 }
 
 }
