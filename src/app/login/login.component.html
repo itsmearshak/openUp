@@ -10,13 +10,10 @@
 <div class="login-form-container">
     <h4>Login</h4>
     <label for="username">Username</label><br>
-    <input type="text" name="username"><br>
+    <input type="text" name="username" [(ngModel)]="username"><br>
     <label for="username">Password</label><br>
-    <input type="text" name="username">
-    <h4>ok</h4>
-    <h4>ok</h4>
-    <h4>ok</h4>
-    <h4>ok</h4>
+    <input type="text" name="username" [(ngModel)]="password">
+   
 <div class="button-container" (click)="onButtonClick()"><button>login</button></div>
 </div>
 </div>

@@ -1,0 +1,38 @@
+.header-container {
+    height: 100px;
+    background-color: gray;
+    justify-content: space-between;
+    display: flex;
+
+    .logo {
+        font-family: 'Sedgwick Ave Display';
+        font-size: 1.8em;
+        top: 35px;
+        left: 20px;
+        position: relative;
+        color: white;
+
+    }
+
+    .menu {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        top: 70px;
+        position: relative;
+
+        .menu-item {
+            font-size: 1.3em;
+            color: wheat;
+        }
+    }
+
+    .logout {
+        position: relative;
+        top: 40px;
+        right: 30px;
+        font-size: 1.5em;
+        color: white;
+
+    }
+}
